@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 type TimerMode = "focus" | "break";
 
 // Set Duration
-const focusTime = 1;
+const focusTime = 25;
 const breakTime = 5;
 
 export default function useTimer() {
